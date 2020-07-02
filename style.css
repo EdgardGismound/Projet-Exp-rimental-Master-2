@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Vesterbro';
+    src: url('typo/TRY_Vesterbro-Medium.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Vesterbro-Light';
+    src: url('typo/TRY_Vesterbro-Light.ttf'); /* IE9 Compat Modes */
+}
+
+body{
+    margin: 0;
+    font-family: 'Vesterbro', Fallback, sans-serif;;
+    background-color: #f1f1f1;
+}
+
+header{
+    height: 48px;
+    padding: 0 32px;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+}
+
+a{
+    margin: 0 auto;
+    padding: 0 16px 0 0;
+    list-style-type: none;
+    line-height: 48px;
+    font-size: 20px;
+    text-decoration: none;
+    color:#000;
+    text-transform: capitalize;
+}
+
+a:first-child{
+    /* font-weight: bold; */
+}
+
+.active{
+    text-decoration: underline;
+}
+
+section{
+    margin-bottom: 48px;
+    padding: 0 32px;
+}
+
+section > .description{
+    font-family: 'Vesterbro-Light', Fallback, sans-serif;;
+    max-width: 960px;
+    font-size: 20px;
+    padding: 16px 32px;
+}
+
+.prestext{
+    padding: 32px 0;
+}
+
+.videotop{
+    margin:0 0 32px 0;
+    max-width: 100%;
+}
+video{
+    width: 100%;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.case{
+    box-sizing: border-box;
+    width: calc(100%/3);
+    border: 2px solid #000;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    color: #000;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    width: 100%;
+    padding: 0 32px;
+    border-top: solid #000 2px;
+    background-color: #f1f1f1;
+}
